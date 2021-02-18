@@ -20,7 +20,11 @@ chrome.runtime.onMessage.addListener(
         tabId: sender.tab.id,
         title: 'Super-powered by \n' + version
       });
+      chrome.pageAction.setIcon({
+        tabId: sender.tab.id,
+        path: 'images/icon38.png'
+      })
 
-      console.log(version + 'found at:', sender.tab.url);
+      console.log(version + ' found at:', sender.tab.url);
     }
   });

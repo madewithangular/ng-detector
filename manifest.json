@@ -19,8 +19,7 @@
 
   "page_action": {
     "default_icon": {
-      "19": "images/icon19.png",
-      "38": "images/icon38.png"
+      "38": "images/icon38-gray.png"
     },
 
     "default_title": "AngularJS Super-Powered"
